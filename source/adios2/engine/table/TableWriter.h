@@ -48,7 +48,7 @@ private:
     Operator *m_Compressor = nullptr;
     std::unordered_map<std::string, bool> m_IndexerMap;
     std::string m_UseCompressor;
-    std::string m_UseAccuracy;
+    std::string m_UseAccuracy = "0.01";
 
     void PutSubEngine(bool finalPut = false);
 
